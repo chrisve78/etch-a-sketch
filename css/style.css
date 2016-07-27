@@ -1,1 +1,72 @@
 /*css for etch-a-sketch*/
+html, body{
+  height: 100%;
+}
+
+
+.container{
+  height: 700px;
+  width: 1200px;
+  background-color: red;
+  margin: auto;
+  border-radius: 30px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.screen-container{
+  background-color: #fff;
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  margin: 100px 100px 100px 100px;
+  border: 1px solid black;
+}
+
+.button{
+  position: absolute;
+  top: 30px;
+  left: 535px;
+}
+
+button{
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.logo_image{
+  position: absolute;
+  bottom: -24px;
+  left: 475px;
+}
+
+.left_button, .right_button{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.left_button{
+  left: 2px;
+  bottom: 2px;
+}
+
+.right_button{
+  right: 2px;
+  bottom: 2px;
+}
+
+.black_div{
+  background-color: black;
+  display: inline-block;
+}
+
+.grey_div{
+  background-color: white;
+  display: inline-block;
+}
